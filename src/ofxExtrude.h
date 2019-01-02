@@ -77,9 +77,9 @@ public:
 		}
 
 		ofVboMesh result;
-		result.append(front);
+		if (cap) result.append(front);
 		result.append(side);
-		result.append(back);
+		if (cap) result.append(back);
 
 		return result;
 	
