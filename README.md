@@ -15,3 +15,5 @@ ofPath path;
 ofVboMesh mesh1 = ofxExtrude::getByStraight(path, dir);
 ofVboMesh mesh2 = ofxExtrude::getByCurve(path, curve);
 ```
+## Reference
+* [Extrude Text into 3D](https://forum.openframeworks.cc/t/extrude-text-into-3d/6938)
