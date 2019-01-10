@@ -6,7 +6,7 @@ class ofxExtrude {
 public:
 
 	static ofVboMesh getByCurve(const ofPath& path, const ofPolyline& curve, bool cap = true) {
-		getByCurve(path.getTessellation(), path, curve, cap);
+		return getByCurve(path.getTessellation(), path, curve, cap);
 	}
 
 	static ofVboMesh getByCurve(const ofMesh& tess, const ofPath& path, const ofPolyline& curve, bool cap = true) {
